@@ -18,7 +18,7 @@ if detected_faces:    #checks if any faces were detected
 
     img = cv2.imread(img_path)
 
-    for face in detected_faces:   #put a bounding box around each detected face
+    for face in detected_faces:   #put a bounding box around each detected face (and text)
 
         face1 = face.get('facial_area')    
 
