@@ -1,7 +1,7 @@
-import sys
-import os
-venv_path = 'venv\Lib\site-packages'
-sys.path.insert(0, venv_path)
+##import sys
+##import os
+##venv_path = 'venv\Lib\site-packages'
+##sys.path.insert(0, venv_path)
 
 import cv2
 from deepface import DeepFace
